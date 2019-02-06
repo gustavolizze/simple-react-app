@@ -1,6 +1,7 @@
 {
   "name": "simple-react-app",
   "version": "0.1.0",
+  "homepage": "https://gustavolizze.github.io/simple-react-app",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.9.1",
@@ -21,6 +22,8 @@
     "reactn": "^0.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -53,6 +56,7 @@
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.8.0",
     "eslint-plugin-prettier": "^3.0.1",
+    "gh-pages": "^2.0.1",
     "onchange": "^5.2.0",
     "prettier": "^1.16.4",
     "sinon": "^7.2.3",

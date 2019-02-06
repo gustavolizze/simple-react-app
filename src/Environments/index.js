@@ -8,10 +8,16 @@ const config = {
         isBrowser: typeof window !== 'undefined'
     },
     test: {},
-    production: {},
+    production: {
+        theGuardian: {
+            apiKey: '86b34c36-8141-41c1-abe7-f7a0ef06099a',
+            search: 'https://content.guardianapis.com/search',
+            article: 'https://content.guardianapis.com'
+        }
+    },
     development: {
         theGuardian: {
-            apiKey: '0d160d0f-71cd-48b0-801f-2fc9cabd2157',
+            apiKey: '86b34c36-8141-41c1-abe7-f7a0ef06099a',
             search: 'https://content.guardianapis.com/search',
             article: 'https://content.guardianapis.com'
         }
