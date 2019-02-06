@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The Application is a simple news site, where the user can filter by a certain category, select a news item, see several news
 
+## Project Demo
+[Click to see the demo](https://gustavolizze.github.io/simple-react-app/technology)
 
 ## Instructions
 
