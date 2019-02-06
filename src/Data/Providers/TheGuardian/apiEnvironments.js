@@ -11,7 +11,7 @@ const getEnvironmentsForArticles = ({ currentPage, currentCategory, currentSearc
     const url = new URL(environment.theGuardian.search);
     url.searchParams.append('api-key', environment.theGuardian.apiKey);
     url.searchParams.append('lang', 'en');
-    url.searchParams.append('page-size', 6);
+    url.searchParams.append('page-size', 12);
     url.searchParams.append('show-references', 'author');
     url.searchParams.append('show-fields', 'trailText,thumbnail,publication');
 
