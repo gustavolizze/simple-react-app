@@ -1,0 +1,1 @@
+export { searchForNews } from './searchForNews';

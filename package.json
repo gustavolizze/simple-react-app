@@ -1,0 +1,63 @@
+{
+  "name": "simple-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.1",
+    "@material-ui/icons": "^3.0.2",
+    "classnames": "^2.2.6",
+    "lodash.debounce": "^4.0.8",
+    "lodash.merge": "^4.6.1",
+    "moment": "^2.24.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-content-loader": "^4.0.1",
+    "react-dom": "^16.7.0",
+    "react-on-screen": "^2.1.1",
+    "react-on-visible": "^1.6.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.3",
+    "reactn": "^0.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:debug": "react-scripts --inspect-brk test --no-cache --runInBand --env=jsdom",
+    "eject": "react-scripts eject",
+    "pretty": "prettier --write src/**/**.js",
+    "storybook": "start-storybook -p 9001 -s public --ci",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@storybook/addon-actions": "^4.0.12",
+    "@storybook/addon-console": "^1.1.0",
+    "@storybook/addon-knobs": "^4.1.11",
+    "@storybook/addon-links": "^4.0.12",
+    "@storybook/addon-notes": "^4.1.11",
+    "@storybook/addon-options": "^4.1.11",
+    "@storybook/addon-storysource": "^4.1.11",
+    "@storybook/addon-viewport": "^4.1.11",
+    "@storybook/addons": "^4.0.12",
+    "@storybook/react": "4.0.9",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.8.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "onchange": "^5.2.0",
+    "prettier": "^1.16.4",
+    "sinon": "^7.2.3",
+    "storybook-addon-material-ui": "^0.9.0-alpha.17",
+    "storybook-host": "^5.0.3",
+    "storybook-react-router": "^1.0.2"
+  }
+}
