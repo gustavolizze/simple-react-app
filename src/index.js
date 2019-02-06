@@ -9,7 +9,7 @@ import Routes from './Components/AppRoutes';
 registerState();
 
 ReactDOM.render(
-    <Router>
+    <Router basename="/simple-react-app/" >
         <Fragment>
             <ResetCss />
             <Route component={Routes} />

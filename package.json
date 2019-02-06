@@ -1,7 +1,7 @@
 {
   "name": "simple-react-app",
   "version": "0.1.0",
-  "homepage": "https://gustavolizze.github.io/simple-react-app",
+  "homepage": "https://gustavolizze.github.io/simple-react-app/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.9.1",
